@@ -1,0 +1,136 @@
+:root {
+  --text: #f5fae8;
+  --background: #0c1104;
+  --primary: #c2d39d;
+  --secondary: #218e5b;
+  --accent: #63b9a2;
+}
+
+* {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  color: var(--text);
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 32px 48px;
+  background-color: var(--secondary);
+}
+
+#header div {
+  display: flex;
+}
+
+#header img {
+  height: 24px;
+  width: auto;
+  display: inline;
+}
+
+#header p {
+  display: inline;
+  padding-left: 4px;
+}
+
+.main-head,
+.cart-head {
+  font-family: serif;
+  font-size: 48px;
+  font-style: italic;
+  color: var(--secondary);
+  text-align: center;
+  padding-top: 48px;
+}
+
+.main-para,
+.cart-para {
+  color: var(--secondary);
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+#main-container {
+  padding: 8px;
+}
+
+#product-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.service-box {
+  background-color: #dbe4c9;
+  padding: 10px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.service-box .pname {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.service-box p {
+  color: #0d5d37;
+  margin-bottom: 0;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.service-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.form-div button,
+.service-box button {
+  border: none;
+  background-color: var(--secondary);
+  color: #dbe4c9;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.form-div button {
+  margin-top: 16px;
+  padding: 8px 16px;
+}
+
+.service-box button {
+  width: 100%;
+}
+
+#main-container form label,
+#main-container form input {
+  color: var(--secondary);
+}
+
+.name-label label,
+.name-label input {
+  display: inline-block;
+  margin: 4px;
+}
+
+#main-container form input {
+  border: none;
+  border-bottom: 2px solid var(--secondary);
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

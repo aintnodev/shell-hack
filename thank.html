@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plants - Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div>
+        <a href="index.html">
+          <img
+            src="https://img.icons8.com/?size=240&id=LlYRoK7X78AE&format=png&color=c2d39d"
+            alt="Plants Logo"
+          />
+          <p>Home</p></a
+        >
+      </div>
+      <a href="#">Blog</a>
+      <a href="#">User</a>
+      <a href="index.html">
+        <div>
+          <img
+            src="https://img.icons8.com/?size=240&id=nJaa7Fd5faLm&format=png&color=c2d39d"
+            alt="Plants Logo"
+          />
+          <p>Cart</p>
+        </div>
+      </a>
+    </header>
+    <div id="main-container">
+      <h1 class="cart-head">Your item has been added to cart.</h1>
+      <p class="cart-para">Enter your information to continue</p>
+      <div class="form-div">
+        <form>
+          <div class="name-label">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" />
+          </div>
+          <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" />
+          </div>
+          <div>
+            <label for="phone">Phone number:</label>
+            <input type="text" id="phone" name="phone" />
+          </div>
+          <div>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" />
+          </div>
+        </form>
+        <button onclick="redirectLast()">Submit</button>
+      </div>
+    </div>
+    <script src="product.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
